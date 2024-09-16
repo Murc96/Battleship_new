@@ -4,7 +4,7 @@ import java.util.List;
 public class Board {
     private final char[][] board;
     private final List<Ship> ships;
-    private final List<int[]> missedShots; // To store missed shots
+    private final List<int[]> missedShots;
 
     public Board(int size) {
         this.board = new char[size][size];
